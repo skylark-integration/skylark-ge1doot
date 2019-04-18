@@ -1,0 +1,37 @@
+{
+  "name": "skylark-ge1doot",
+  "version": "0.9.0",
+  "description": "A version of ge1doot image 3d transformer  that ported to running on skylarkjs.",
+  "main": "-",
+  "scripts": {
+    "build": "sbundle build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "www.skylarkjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylark-integration/skylark-ge1doot.git"
+  },
+  "keywords": [
+    "skylark",
+    "skylarkjs",
+    "library"
+  ],
+  "author": "Hudaokeji Co.,Ltd",
+  "license": "MIT",
+  "bugs": "https://github.com/skylark-integration/skylark-ge1doot/issues",
+  "devDependencies": {
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
+    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master"
+  },
+  "skylarkjs": {
+    "build": {
+      "bundle": {
+        "initOnLoad": true
+      }
+    }
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
